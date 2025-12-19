@@ -6,15 +6,14 @@ It explores shipment on-time rates, transit times, transportation cost, carrier 
 
 ---
 
-## What’s included
-- `supply_chain_dashboard.pbix` — the Power BI report 
-- `data/shipments_sample.csv` — sample dataset used in the report  
+
+- `supply_chain_dashboard.pbix` — the Power BI report  
 - `generate_dataset.py` — small Python script to create a synthetic shipment dataset  
   
 
 ---
 
-## Tech
+## Tech Used
 - Power BI Desktop (.pbix)  
 - Python (data generation / ETL)  
 - CSV / Excel for data storage  
@@ -22,7 +21,7 @@ It explores shipment on-time rates, transit times, transportation cost, carrier 
 
 ---
 
-## Quick overview
+
 The dashboard shows:
 - KPI cards for Total Shipments, On-Time Delivery Rate, Avg Transit Duration and Avg Transport Cost  
 - Product-level and carrier performance views  
