@@ -2,6 +2,7 @@
 
 A Power BI dashboard that visualizes delivery performance for a fictional furniture retailer (Furniture STORe).  
 It explores shipment on-time rates, transit times, transportation cost, carrier performance and city-level delivery hotspots.
+![WhatsApp Image 2025-12-19 at 6 50 44 PM](https://github.com/user-attachments/assets/e42fc136-eb7b-4916-8f66-fafb312e02ab)
 
 ---
 
@@ -9,7 +10,7 @@ It explores shipment on-time rates, transit times, transportation cost, carrier 
 - `supply_chain_dashboard.pbix` — the Power BI report 
 - `data/shipments_sample.csv` — sample dataset used in the report  
 - `generate_dataset.py` — small Python script to create a synthetic shipment dataset  
-- `screenshots/` 
+  
 
 ---
 
@@ -39,13 +40,5 @@ The dashboard shows:
 
 ---
 
-## Reproduce locally
-1. Open the PBIX in Power BI Desktop: **File → Open → supply_chain_dashboard.pbix**  
-2. If the report uses local CSV: File → Transform data → edit source to point to `data/shipments_sample.csv`, then Refresh  
-3. To regenerate the sample dataset:
-   ```bash
-   python -m venv .venv
-   source .venv/bin/activate   # macOS / Linux
-   .venv\Scripts\activate      # Windows
-   pip install -r requirements.txt
+
    python generate_dataset.py --n 100 --out data/shipments_sample.csv
