@@ -40,4 +40,4 @@ The dashboard shows:
 ---
 
 
-   python generate_dataset.py --n 100 --out data/shipments_sample.csv
+
