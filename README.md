@@ -7,8 +7,8 @@ It explores shipment on-time rates, transit times, transportation cost, carrier 
 ---
 
 
-- `supply_chain_dashboard.pbix` — the Power BI report  
-- `generate_dataset.py` — small Python script to create a synthetic shipment dataset  
+- `supply_chain_dashboard.pbix` - the Power BI report  
+- `generate_dataset.py` - small Python script to create a synthetic shipment dataset  
   
 
 ---
